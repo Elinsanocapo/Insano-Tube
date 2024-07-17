@@ -6,7 +6,7 @@ authors = ["Mollomm1"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"  # Cambio a 3.9 para coincidir con el Dockerfile
 requests = "^2.28.2"
 Flask = "^2.2.3"
 yt-dlp = "^2023.3.4"
